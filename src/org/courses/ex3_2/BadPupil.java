@@ -2,7 +2,9 @@ package org.courses.ex3_2;
 
 public class BadPupil extends Pupil {
 
-    public BadPupil(){}
+    public BadPupil(String name, String last_name){
+        super(name,last_name);
+    }
 
     @Override
     public void study(){

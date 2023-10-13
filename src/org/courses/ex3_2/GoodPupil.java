@@ -2,7 +2,9 @@ package org.courses.ex3_2;
 
 public class GoodPupil extends Pupil {
 
-    public GoodPupil(){}
+    public GoodPupil(String name, String last_name){
+        super(name, last_name);
+    }
 
     @Override
     public void study(){ System.out.println("I have good marks"); }
