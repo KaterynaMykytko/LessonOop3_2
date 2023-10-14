@@ -16,6 +16,5 @@ public class Main {
 
         ClassRoom classRoom = new ClassRoom(pupils);
         classRoom.show();
-
     }
 }
